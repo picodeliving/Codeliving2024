@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codeliving</title>
+    <link rel="stylesheet" href="mon_site.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Codeliving</div>
+<!--  -->
+        <div class="burger">
+            <div class="link"></div>
+            <div class="link"></div>
+            <div class="link"></div>
+        </div>
+<!--  -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="A_propos_de_nous.html">A propos de L'entreprise</a></li>
+                <li><a href="nos_sevice.html">Nos Servis </a></li>
+                <li><a href="eqp.html">EQP</a></li>
+                <!-- <a href="#">Techinologie</a> -->
+                <a href="contact.html"><button class="contact">Contact</button></a>
+            </ul>
+        </nav>
+    </header>
+<!--  -->
+    <div class="presentation">
+        
+        <h1>Codeliving</h1>
+        <h3>
+            Bienvenue chez Codeliving, votre partenaire de <br>
+             confiance en développement web. <br>
+        </h3>
+        <h5>
+            Nous sommes une entreprise passionnée et innovante,<br>
+            dédiée à transformer vos idées en réalités numériques. <br>
+            Chez Codeliving, nous croyons en l'importance de la technologie <br>
+            pour améliorer la vie et les affaires, et nous nous efforçons de fournir <br>
+            des solutions web de qualité supérieure, adaptées à vos besoins spécifiques.
+        </h5>
+     </div>
+<!--  -->
+    <div class="image1">
+        <img src="img/b5e47c6279957ec4f9da00fa633a4a32.jpg" >
+    </div> 
+    <div class="ecriture">
+        <img src="img/2eeb819670cd444397b74ea83cd142f8.jpg" alt="">
+        <h4>Notre mission est de créer des <br>
+            expériences web exceptionnelles <br>
+            qui propulsent votre entreprisevers <br>
+             de nouveaux sommets.</h4>
+        
+    </div>
+   <script>
+        hamburger = document.querySelector(".burger");
+        hamburger.onclick = function(){
+            navBar = document.querySelector(".navbar");
+            navBar.classList.toggle("active")
+        }
+    
+    </script>
+</body>
+</html>

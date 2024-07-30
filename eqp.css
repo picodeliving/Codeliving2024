@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(88, 93, 97, 0.589);
+}
+
+
+.icon img{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: aliceblue;
+    background-color: rgb(240, 248, 255); 
+    /* backdrop-filter: blur(10px); */
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.icon img:hover{
+    transform: scale(1.1);
+}
+
+ /* ------------------------ ---------------------- */
+
+ h1{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-size: 1.8em;
+ }
+
+ h3{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    /* font-size: 1.8em; */
+ }
+
+/* --------------------- ----------------------- */
+
+.EQP1{
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    width: 280px;
+    height: 400px;
+    background-color: #FFF;
+    border-radius:15px;
+}
+.EQP2{
+    position: fixed;
+    top: 100px;
+    left: 367px;
+    width: 280px;
+    height: 400px;
+    background-color: #FFF;
+    border-radius:15px;
+}
+.EQP3{
+    position: fixed;
+    top: 100px;
+    left: 680px;
+    width: 280px;
+    height: 400px;
+    background-color: #FFF;
+    border-radius:15px;
+}
+.EQP4{
+    position: fixed;
+    top: 100px;
+    left: 1000px;
+    width: 280px;
+    height: 400px;
+    background-color: #FFF;
+    border-radius:15px;
+}
+
+/* -------------------- -------------------- */
+
+.imge1{
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+.imge2{
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+.imge3{
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+.imge4{
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+.h3{
+    font-size: 1.5em;
+}
+
+
+
+/* ------------------------- ---------------------- */
+
+.dio1{
+    position: fixed;
+    top: 280px;
+    left: 50px;
+    width: 280px;
+    height: 200px;
+    background-color: #FFF;
+
+}
+.dio2{
+    position: fixed;
+    top: 280px;
+    left: 367px;
+    width: 280px;
+    height: 200px;
+    background-color: #FFF;
+
+}
+.dio3{
+    position: fixed;
+    top: 280px;
+    left: 680px;
+    width: 280px;
+    height: 200px;
+    background-color: #FFF;
+
+}
+.dio4{
+    position: fixed;
+    top: 280px;
+    left: 1000px;
+    width: 280px;
+    height: 200px;
+    background-color: #FFF;
+
+}
+
+/* -------------------------- ------------------------- */
+
+.perso1 img{
+    position: absolute;
+    top: 130px;
+    left: 89px;
+    border-radius: 999px;
+    width: 100px;
+    height: 100px;
+    border: 4px solid rgb(193, 230, 215);
+    transition: 0.7s;
+}
+
+.perso1 img:hover{
+    border: 4px solid rgb(47, 138, 123);
+
+}
+.perso2 img{
+    position: absolute;
+    top: 130px;
+    left: 89px;
+    border-radius: 999px;
+    width: 100px;
+    height: 100px;
+    border: 4px solid rgb(193, 230, 215);
+    transition: 0.7s;
+}
+
+.perso2 img:hover{
+    border: 4px solid rgb(47, 138, 123);
+
+}
+.perso3 img{
+    position: absolute;
+    top: 130px;
+    left: 89px;
+    border-radius: 999px;
+    width: 100px;
+    height: 100px;
+    border: 4px solid rgb(193, 230, 215);
+    transition: 0.7s;
+}
+
+.perso3 img:hover{
+    border: 4px solid rgb(47, 138, 123);
+
+}
+.perso4 img{
+    position: absolute;
+    top: 130px;
+    left: 89px;
+    border-radius: 999px;
+    width: 100px;
+    height: 100px;
+    border: 4px solid rgb(193, 230, 215);
+    transition: 0.7s;
+}
+
+.perso4 img:hover{
+    border: 4px solid rgb(47, 138, 123);
+
+}
+
+/* ------------------------ ---------------------- */
+
+footer{
+    position: absolute;
+    top: 550px;
+    width: 100%;
+    height: 97px;
+    background-color: rgba(240, 255, 255, 0.322);
+    backdrop-filter: blur(20px);
+    /* border: 1px solid black; */
+}
+.mg{
+    position: relative;
+    top: -25px;
+    width: 100px;
+    height: 120px;
+}
+h2{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+.tele{
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    font-size: 1.4em;
+}
+
+/* ---------------------1010 ----------------------- */
+
+@media(max-width: 1010px){
+    .EQP4{
+        position:relative;
+        top: 150px;
+        left: 50px;
+        width: 280px;
+        height: 400px;
+        background-color: #FFF;
+        border-radius:15px;
+    }
+    .EQP3{
+        position:relative;
+        top: 550px;
+        left: 367px;
+        width: 280px;
+        height: 400px;
+        background-color: #FFF;
+        border-radius:15px;
+    }
+
+    .dio3{
+        display: none; 
+      }
+    .dio2{
+        display: none; 
+      }
+
+      .h1{
+        position: relative;
+        top: 60px;
+        text-align: center;
+        font-size: 1.8em;
+     }
+    
+     .h3{
+        position: relative;
+        top: 70px;
+        text-align: center;
+        /* font-size: 1.8em; */
+     }
+
+    /* ------------------------ ---------------------- */
+
+footer{
+    
+    display: none;
+}
+.mg{
+  
+    display: none;
+}
+h2{
+ 
+    display: none;
+}
+.tele{
+   
+    display: none;
+}
+}
+
+/* ---------------------670 ----------------------- */
+
+@media(max-width: 670px){
+    p{
+        position: relative;
+        top: 110px;
+        text-align: center;
+        color: blue;
+    }
+
+    .EQP4 p{
+        position: relative;
+        top: 90px;
+        text-align: center;
+        color: blue;
+    }
+    .EQP1{
+        position:relative;
+        top: 70px;
+        left: 50px;
+        width: 280px;
+        height: 400px;
+        background-color: #FFF;
+        border-radius:15px;
+    }
+    .EQP2{
+        position:relative;
+        top: 150px;
+        left: 50px;
+        width: 280px;
+        height: 400px;
+        background-color: #FFF;
+        border-radius:15px;
+    }
+    .EQP3{
+        position:relative;
+        top: 250px;
+        left: 50px;
+        width: 280px;
+        height: 400px;
+        background-color: #FFF;
+        border-radius:15px;
+    }
+    .EQP4{
+        position:relative;
+        top: 350px;
+        left: 50px;
+        width: 280px;
+        height: 400px;
+        background-color: #FFF;
+        border-radius:15px;
+    }
+
+    /* ------------------------- ---------------------- */
+
+.dio1{
+  display: none;
+}
+.dio2{
+  display: none;
+}
+.dio3{
+  display: none;
+}
+.dio4{
+  display: none;
+}
+ 
+  
+}

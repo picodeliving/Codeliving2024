@@ -1,0 +1,92 @@
+(  
+ 
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+       
+    
+    <!-- css -->
+
+
+    (/* styles.css */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.938);
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        backdrop-filter: blur(50px);
+        /* background-color: #333; */
+        /* backdrop-filter: blur(10px); */
+    }
+    
+    .burger-menu {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    
+    .burger-menu .line {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 4px 0;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-links li {
+        margin: 0 10px;
+    }
+    
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    @media (max-width: 768px) {
+        .burger-menu {
+            display: flex;
+        }
+        
+        .nav-links {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            backdrop-filter: blur(50px);
+        }
+    
+        .nav-links.active {
+            display: flex;
+        }
+    
+        .nav-links li {
+            margin: 15px 0;
+            text-align: center;
+        }
+    }
+    )
+
+
+    <!-- js -->
+
+    (// script.js
+    document.getElementById('burger-menu').addEventListener('click', function() {
+        document.getElementById('nav-links').classList.toggle('active');
+    });
+    )
+
+
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAQVJREFUWEftljsKAjEURc9s1MJP4xLEwkZsBQtRRFyVnWtwCUrAgTA4c/N1IiTtS/LOu++TNBS2msJ4qEAqI1WhqpBSQNlT1NABeAB75czFHgt0BhYfR1tg7eJ0aE8MkA1jfByB5VhAWWBMMCEKZYPxBTLwJ6tmkqXJTrOrQmbfDZhYh6/ALLZmuuddgPpg5sDr10AG5gJMLcdPwMyeEJiNCmBIoW/KqPuUXWbkr4DaLiwmZa38RRW1ghql7YegkrxfIYPRhso6rWUb9vRxtvcsFMhwZoGKAepC7YCVmozKHgvUQt1L+cKqgL3tKRTydprrT50UxJ4rWS4OvbSmTClXFVIKvQFJjiwlqb/yOAAAAABJRU5ErkJggg=="/>
